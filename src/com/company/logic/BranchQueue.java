@@ -200,7 +200,6 @@ public class BranchQueue {
     public void displayResultForEandTC(double per, String name) {
 
         for (int m = 0; m < Entc.length; m++) {
-
             if (per == Entc[m]) {
                 System.out.println("Name       : " + name);
                 System.out.println("Percentile : " + Entc[m]);
@@ -208,3 +207,5 @@ public class BranchQueue {
         }
     }
 }
+
+
